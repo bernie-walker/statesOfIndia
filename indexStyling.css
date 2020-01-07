@@ -1,0 +1,102 @@
+body {
+  /* background-color: rgb(8, 2, 19); */
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.state-name {
+  font-size: 25px;
+}
+
+.nav-tab {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 450;
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 5px outset #ddd;
+  border-width: thin;
+}
+
+.nav-tab > a {
+  text-decoration: none;
+  color: rgba(180, 175, 175, 0.897);
+}
+
+.nav-tab > a:hover {
+  color: rgba(199, 114, 34);
+}
+
+.root-div {
+  /* color: rgba(180, 175, 175, 0.897); */
+  display: grid;
+  margin: 5px auto;
+  line-height: 1.5;
+  width: 90%;
+  letter-spacing: 1px;
+}
+
+.state-list {
+  width: 300px;
+  font-size: 14px;
+  font-weight: normal;
+  border: 3px solid rgba(207, 202, 197, 0.918);
+  border-radius: 9px;
+}
+
+.state-list:hover {
+  border-color: rgba(107, 75, 34, 0.315);
+}
+
+.state-content {
+  padding: 3px 10px 3px 10px;
+  height: 300px;
+  margin-bottom: 12px;
+}
+
+.state-name {
+  font-weight: 500;
+}
+
+.state-content > p {
+  color: rgb(47, 45, 45);
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.state-content:hover {
+  box-shadow: 3px 3px 20px 1px rgb(209, 207, 204);
+}
+
+.state-content > div {
+  display: flex;
+  flex-direction: initial;
+}
+
+.content-head {
+  padding-top: 6px;
+  display: flex;
+}
+
+.content-head-left {
+  display: grid;
+  grid-template-rows: 72px;
+}
+
+.state-image {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 8px;
+  margin-left: 60px;
+  width: 600px;
+}
+
+.state-image > img {
+  border-radius: 3px;
+  width: 33.33%;
+  margin: 0.5px;
+}
